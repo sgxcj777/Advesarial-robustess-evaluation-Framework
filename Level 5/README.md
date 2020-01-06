@@ -1,12 +1,15 @@
-# Computing CLEVER score for model's robustness against adversarial attacks
+# Resistance against unknown attacks in all context (ARL 5)
+To seek a method that evaluates a model for resistance against unknown attacks in all context, there needs to be a metric that is attack agnostic (independent of any adversarial attacks). Thus, CLEVER metric is adopted as it is attack independent and computes an accurate estimation of model's robustness.
+
+## Computing CLEVER score for model's robustness against adversarial attacks
 
 This package is to provide a toolbox for adversarial testing. It mainly focuses on using CLEVER score as a metric to evaluate a model's robustness.
 
 We leverage on several existing toolboxes/packages/libraries done on Github to perform model testing and evaluation. the following libraries/packages are used:
 
-- IBM's ART library: used to provide frameworks for popular Machine Learning Libraries, types of attacks, defences, metrics and verifications (including the use of CLEVER). Documentation of ART: https://adversarial-robustness-toolbox.readthedocs.io
+- IBM's ART library: used to provide frameworks for popular Machine Learning Libraries, types of attacks, defences, metrics and verifications (including the use of CLEVER).
 
-# CLEVER Theory
+## CLEVER Theory
 
 CLEVER evaluates by providing an estimation of the lower bound of perturbations needed to create an adversarial sample. Most of the previous methods of finding lower bond of perturbations consists of sampling outputs from a large amount of adversarial attacks, and computing the minimum perturbations required to create an adversarial sample. However, this method does not cover all types of attacks, especially unforeseen attacks. Thus, CLEVER seeks to estimate the lower bound of perturbations needed to create an adversarial sample without the need to perform specific adversarial attacks (i.e. attack independent).
 
@@ -33,37 +36,6 @@ This is computationally expensive, thus, the CLEVER authors used Extreme Value t
 ## Required packages
 
 - IBM ART package: we are making use of this package to conduct testing
--
-
-## Setup of IBM ART
-
-### Installation with `pip`
-
-The toolbox is designed and tested to run with Python 3. 
-ART can be installed from the PyPi repository using `pip`:
-
-```bash
-pip install adversarial-robustness-toolbox
-```
-
-### Manual installation
-
-The most recent version of ART can be downloaded or cloned from this repository:
-
-```bash
-git clone https://github.com/IBM/adversarial-robustness-toolbox
-```
-
-Install ART with the following command from the project folder `art`:
-```bash
-pip install .
-```
-
-ART provides unit tests that can be run with the following command:
-
-```bash
-bash run_tests.sh
-```
 
 ## CLEVER metric in ART library
 
@@ -96,17 +68,4 @@ Using the authors' predetermined values, we will use the following parameters:
 - radius = 5
 - norm = 1
 
-## Citing ART
-
-If you use ART for research, please consider citing the following reference paper:
-```
-@article{art2018,
-    title = {Adversarial Robustness Toolbox v1.0.1},
-    author = {Nicolae, Maria-Irina and Sinn, Mathieu and Tran, Minh~Ngoc and Buesser, Beat and Rawat, Ambrish and Wistuba, Martin and Zantedeschi, Valentina and Baracaldo, Nathalie and Chen, Bryant and Ludwig, Heiko and Molloy, Ian and Edwards, Ben},
-    journal = {CoRR},
-    volume = {1807.01069},
-    year = {2018},
-    url = {https://arxiv.org/pdf/1807.01069}
-}
-```
 
