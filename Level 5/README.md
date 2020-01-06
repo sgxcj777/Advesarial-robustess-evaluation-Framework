@@ -1,4 +1,7 @@
-# Computing CLEVER score for model's robustness against adversarial attacks
+# Resistance against unknown attacks in all context (ARL 5)
+To seek a method that evaluates a model for resistance against unknown attacks in all context, there needs to be a metric that is attack agnostic (independent of any adversarial attacks). Thus, CLEVER metric is adopted as it is attack independent and computes an accurate estimation of model's robustness.
+
+## Computing CLEVER score for model's robustness against adversarial attacks
 
 This package is to provide a toolbox for adversarial testing. It mainly focuses on using CLEVER score as a metric to evaluate a model's robustness.
 
