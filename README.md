@@ -20,7 +20,7 @@ Supported Machine Learning Libraries and Applications:
 Implemented Attacks, Defences, Detections, Metrics, Certifications and Verifications:
 
 Evasion Attacks:
-- High Confidence Low Uncertainty adversarial examples (Grosse et al., 2018)
+- High Confidence Low Uncertainty adversarial examples ([Grosse et al., 2018](https://arxiv.org/abs/1811.03728))
 - Projected gradient descent (Madry et al., 2017)
 - NewtonFool (Jang et al., 2017)
 - Elastic net attack (Chen et al., 2017)
