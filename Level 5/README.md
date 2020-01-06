@@ -7,7 +7,7 @@ This package is to provide a toolbox for adversarial testing. It mainly focuses 
 
 We leverage on several existing toolboxes/packages/libraries done on Github to perform model testing and evaluation. the following libraries/packages are used:
 
-- IBM's ART library: used to provide frameworks for popular Machine Learning Libraries, types of attacks, defences, metrics and verifications (including the use of CLEVER). Documentation of ART: https://adversarial-robustness-toolbox.readthedocs.io
+- IBM's ART library: used to provide frameworks for popular Machine Learning Libraries, types of attacks, defences, metrics and verifications (including the use of CLEVER).
 
 ## CLEVER Theory
 
