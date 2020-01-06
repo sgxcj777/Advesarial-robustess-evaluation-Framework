@@ -1,4 +1,4 @@
-# Resistance against basic and sophisticated adversarial attacks
+# Resistance against basic and sophisticated adversarial attacks (ARL2 & ARL3)
 This level evaluates model's robustness based on a set of basic and sophisticated common adversarial attacks. IBM's ART library is used as a toolkit to conduct attacks and evaluation. More information about IBM ART library can be found in the README.
 
 ## Level 2: Test for resistance against basic adversarial attacks
