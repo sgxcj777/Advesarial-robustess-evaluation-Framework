@@ -13,4 +13,10 @@ This level evaluates model's robustness based on a set of basic and sophisticate
 ## Level 3: Test for resistance against sophisticated adversarial attacks
 - Sophisticated adversarial attacks are categorized according to non-gradient based attacks (e.g. decision based)
 - Suggested attacks:
-  1. Boundary attack --> 
+  1. Boundary attack --> Non gradient dependent on model, based on changing decision boundaries of model. Note that this 
+     attack only requires model's predicted ouput
+     theory: [Wieland Brendel and Jonas Rauber and Matthias Bethge, 2017](https://arxiv.org/abs/1712.04248)
+- Example includes Boundary Attack which is black box by nature (only need model's predicted output) and thus do not need white box environment. 
+
+## Further testing
+Although the above are a set of selected adversarial attacks, there can be addition of new attack types, as long as the adversarial attack fulfils the criteria of each level.
