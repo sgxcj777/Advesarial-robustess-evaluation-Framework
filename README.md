@@ -40,34 +40,35 @@ Evasion Attacks:
 - HopSkipJump attack ([Chen et al., 2019](https://arxiv.org/abs/1904.02144))
 
 Poisoning Attacks:
-- Poisoning Attack on SVM (Biggio et al., 2013)
+- Poisoning Attack on SVM ([Biggio et al., 2013](https://arxiv.org/abs/1206.6389))
 
-Defences:
-- Thermometer encoding (Buckman et al., 2018)
-- Total variance minimization (Guo et al., 2018)
-- PixelDefend (Song et al., 2017)
-- Gaussian data augmentation (Zantedeschi et al., 2017)
-- Feature squeezing (Xu et al., 2017)
-- Spatial smoothing (Xu et al., 2017)
-- JPEG compression (Dziugaite et al., 2016)
-- Label smoothing (Warde-Farley and Goodfellow, 2016)
-- Virtual adversarial training (Miyato et al., 2015)
-- Adversarial training (Szegedy et al., 2013)
+**Defences:**
+* Thermometer encoding ([Buckman et al., 2018](https://openreview.net/forum?id=S18Su--CW))
+* Total variance minimization ([Guo et al., 2018](https://openreview.net/forum?id=SyJ7ClWCb))
+* PixelDefend ([Song et al., 2017](https://arxiv.org/abs/1710.10766))
+* Gaussian data augmentation ([Zantedeschi et al., 2017](https://arxiv.org/abs/1707.06728))
+* Feature squeezing ([Xu et al., 2017](http://arxiv.org/abs/1704.01155))
+* Spatial smoothing ([Xu et al., 2017](http://arxiv.org/abs/1704.01155))
+* JPEG compression ([Dziugaite et al., 2016](https://arxiv.org/abs/1608.00853))
+* Label smoothing ([Warde-Farley and Goodfellow, 2016](https://pdfs.semanticscholar.org/b5ec/486044c6218dd41b17d8bba502b32a12b91a.pdf))
+* Virtual adversarial training ([Miyato et al., 2015](https://arxiv.org/abs/1507.00677))
+* Adversarial training ([Szegedy et al., 2013](http://arxiv.org/abs/1312.6199))
 
-Robustness metrics, certifications and verifications:
-- Clique Method Robustness Verification (Hongge et al., 2019)
-- Randomized Smoothing (Cohen et al., 2019)
-- CLEVER (Weng et al., 2018)
-- Loss sensitivity (Arpit et al., 2017)
-- Empirical robustness (Moosavi-Dezfooli et al., 2015)
+**Robustness metrics, certifications and verifications**:
+* Clique Method Robustness Verification ([Hongge et al., 2019](https://arxiv.org/abs/1906.03849))
+* Randomized Smoothing ([Cohen et al., 2019](https://arxiv.org/abs/1902.02918))
+* CLEVER ([Weng et al., 2018](https://arxiv.org/abs/1801.10578))
+* Loss sensitivity ([Arpit et al., 2017](https://arxiv.org/abs/1706.05394))
+* Empirical robustness ([Moosavi-Dezfooli et al., 2015](https://arxiv.org/abs/1511.04599))
 
-Detection of adversarial samples:
-- Basic detector based on inputs
-- Detector trained on the activations of a specific layer
-- Detector based on Fast Generalized Subset Scan (Speakman et al., 2018)
+**Detection of adversarial samples:**
+* Basic detector based on inputs
+* Detector trained on the activations of a specific layer
+* Detector based on Fast Generalized Subset Scan ([Speakman et al., 2018](https://arxiv.org/pdf/1810.08676))
 
-Detection of poisoning attacks:
-- Detector based on activations analysis (Chen et al., 2018)
+**Detectoion of poisoning attacks:**
+* Detector based on activations analysis ([Chen et al., 2018](https://arxiv.org/abs/1811.03728))
+
 
 
 More information about IBM ART library:
