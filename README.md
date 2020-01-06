@@ -1,46 +1,45 @@
-# Advesarial-robustess-evaluation-Framwork
+# Advesarial-robustess-evaluation-Framework
 
 
 ## IBM ART
 This library contains all the functions that is required for this framework. This includes a diverse set of adversarial attacks, defences, and metrics that we can use, much like a toolbox. More importantly, it is active and updated constantly by the IBM team and open community. Tools that ART provides currently:
 
-Supported Machine Learning Libraries and Applications:
-- TensorFlow (v1 and v2) (www.tensorflow.org)
-- Keras (www.keras.io)
-- PyTorch (www.pytorch.org)
-- MXNet (https://mxnet.apache.org)
-- Scikit-learn (www.scikit-learn.org)
-- XGBoost (www.xgboost.ai)
-- LightGBM (https://lightgbm.readthedocs.io)
-- CatBoost (www.catboost.ai)
-- GPy (https://sheffieldml.github.io/GPy/)
-- Tesseract (https://github.com/tesseract-ocr/tesseract)
+## Supported Machine Learning Libraries and Applications
+* TensorFlow (v1 and v2) (www.tensorflow.org)
+* Keras (www.keras.io)
+* PyTorch (www.pytorch.org)
+* MXNet (https://mxnet.apache.org)
+* Scikit-learn (www.scikit-learn.org)
+* XGBoost (www.xgboost.ai)
+* LightGBM (https://lightgbm.readthedocs.io)
+* CatBoost (www.catboost.ai)
+* GPy (https://sheffieldml.github.io/GPy/)
+* Tesseract (https://github.com/tesseract-ocr/tesseract)
 
+## Implemented Attacks, Defences, Detections, Metrics, Certifications and Verifications
 
-Implemented Attacks, Defences, Detections, Metrics, Certifications and Verifications:
+**Evasion Attacks:**
+* HopSkipJump attack ([Chen et al., 2019](https://arxiv.org/abs/1904.02144))
+* High Confidence Low Uncertainty adversarial examples ([Grosse et al., 2018](https://arxiv.org/abs/1812.02606))
+* Projected gradient descent ([Madry et al., 2017](https://arxiv.org/abs/1706.06083))
+* NewtonFool ([Jang et al., 2017](http://doi.acm.org/10.1145/3134600.3134635))
+* Elastic net attack ([Chen et al., 2017](https://arxiv.org/abs/1709.04114))
+* Spatial transformations attack ([Engstrom et al., 2017](https://arxiv.org/abs/1712.02779))
+* Query-efficient black-box attack ([Ilyas et al., 2017](https://arxiv.org/abs/1712.07113))
+* Zeroth-order optimization attack ([Chen et al., 2017](https://arxiv.org/abs/1708.03999))
+* Decision-based attack ([Brendel et al., 2018](https://arxiv.org/abs/1712.04248))
+* Adversarial patch ([Brown et al., 2017](https://arxiv.org/abs/1712.09665))
+* Decision tree attack ([Papernot et al., 2016](https://arxiv.org/abs/1605.07277))
+* Carlini & Wagner (C&W) `L_2` and `L_inf` attacks ([Carlini and Wagner, 2016](https://arxiv.org/abs/1608.04644))
+* Basic iterative method ([Kurakin et al., 2016](https://arxiv.org/abs/1607.02533))
+* Jacobian saliency map ([Papernot et al., 2016](https://arxiv.org/abs/1511.07528))
+* Universal perturbation ([Moosavi-Dezfooli et al., 2016](https://arxiv.org/abs/1610.08401))
+* DeepFool ([Moosavi-Dezfooli et al., 2015](https://arxiv.org/abs/1511.04599))
+* Virtual adversarial method ([Miyato et al., 2015](https://arxiv.org/abs/1507.00677))
+* Fast gradient method ([Goodfellow et al., 2014](https://arxiv.org/abs/1412.6572))
 
-Evasion Attacks:
-- High Confidence Low Uncertainty adversarial examples ([Grosse et al., 2018](https://arxiv.org/abs/1812.02606))
-- Projected gradient descent ([Madry et al., 2017](https://arxiv.org/abs/1706.06083))
-- NewtonFool ([Jang et al., 2017](https://dl.acm.org/doi/10.1145/3134600.3134635))
-- Elastic net attack ([Chen et al., 2017](https://arxiv.org/abs/1709.04114))
-- Spatial transformations attack ([Engstrom et al., 2017](https://arxiv.org/abs/1712.02779))
-- Query-efficient black-box attack ([Ilyas et al., 2017](https://arxiv.org/abs/1712.07113))
-- Zeroth-order optimization attack ([Chen et al., 2017](https://arxiv.org/abs/1708.03999))
-- Decision-based attack ([Brendel et al., 2018](https://arxiv.org/abs/1712.04248))
-- Adversarial patch ([Brown et al., 2017](https://arxiv.org/abs/1712.09665))
-- Decision tree attack ([Papernot et al., 2016](https://arxiv.org/abs/1605.07277))
-- Carlini & Wagner (C&W) L_2 and L_inf attacks ([Carlini and Wagner, 2016](https://arxiv.org/abs/1608.04644))
-- Basic iterative method ([Kurakin et al., 2016](https://arxiv.org/abs/1607.02533))
-- Jacobian saliency map ([Papernot et al., 2016](https://arxiv.org/abs/1511.07528))
-- Universal perturbation ([Moosavi-Dezfooli et al., 2016](https://arxiv.org/abs/1610.08401))
-- DeepFool ([Moosavi-Dezfooli et al., 2015](https://arxiv.org/abs/1511.04599))
-- Virtual adversarial method ([Miyato et al., 2015](https://arxiv.org/abs/1507.00677))
-- Fast gradient method ([Goodfellow et al., 2014](https://arxiv.org/abs/1412.6572))
-- HopSkipJump attack ([Chen et al., 2019](https://arxiv.org/abs/1904.02144))
-
-Poisoning Attacks:
-- Poisoning Attack on SVM ([Biggio et al., 2013](https://arxiv.org/abs/1206.6389))
+**Poisoning Attacks:**
+* Poisoning Attack on SVM ([Biggio et al., 2013](https://arxiv.org/abs/1206.6389))
 
 **Defences:**
 * Thermometer encoding ([Buckman et al., 2018](https://openreview.net/forum?id=S18Su--CW))
@@ -68,7 +67,6 @@ Poisoning Attacks:
 
 **Detectoion of poisoning attacks:**
 * Detector based on activations analysis ([Chen et al., 2018](https://arxiv.org/abs/1811.03728))
-
 
 
 More information about IBM ART library:
