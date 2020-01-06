@@ -20,53 +20,54 @@ Supported Machine Learning Libraries and Applications:
 Implemented Attacks, Defences, Detections, Metrics, Certifications and Verifications:
 
 Evasion Attacks:
-•	High Confidence Low Uncertainty adversarial examples (Grosse et al., 2018)
-•	Projected gradient descent (Madry et al., 2017)
-•	NewtonFool (Jang et al., 2017)
-•	Elastic net attack (Chen et al., 2017)
-•	Spatial transformations attack (Engstrom et al., 2017)
-•	Query-efficient black-box attack (Ilyas et al., 2017)
-•	Zeroth-order optimization attack (Chen et al., 2017)
-•	Decision-based attack (Brendel et al., 2018)
-•	Adversarial patch (Brown et al., 2017)
-•	Decision tree attack (Papernot et al., 2016)
-•	Carlini & Wagner (C&W) L_2 and L_inf attacks (Carlini and Wagner, 2016)
-•	Basic iterative method (Kurakin et al., 2016)
-•	Jacobian saliency map (Papernot et al., 2016)
-•	Universal perturbation (Moosavi-Dezfooli et al., 2016)
-•	DeepFool (Moosavi-Dezfooli et al., 2015)
-•	Virtual adversarial method (Miyato et al., 2015)
-•	Fast gradient method (Goodfellow et al., 2014)
-•	HopSkipJump attack (Chen et al., 2019)
-       Poisoning Attacks:
-•	Poisoning Attack on SVM (Biggio et al., 2013)
+- High Confidence Low Uncertainty adversarial examples (Grosse et al., 2018)
+- Projected gradient descent (Madry et al., 2017)
+- NewtonFool (Jang et al., 2017)
+- Elastic net attack (Chen et al., 2017)
+- Spatial transformations attack (Engstrom et al., 2017)
+- Query-efficient black-box attack (Ilyas et al., 2017)
+- Zeroth-order optimization attack (Chen et al., 2017)
+- Decision-based attack (Brendel et al., 2018)
+- Adversarial patch (Brown et al., 2017)
+- Decision tree attack (Papernot et al., 2016)
+- Carlini & Wagner (C&W) L_2 and L_inf attacks (Carlini and Wagner, 2016)
+- Basic iterative method (Kurakin et al., 2016)
+- Jacobian saliency map (Papernot et al., 2016)
+- Universal perturbation (Moosavi-Dezfooli et al., 2016)
+- DeepFool (Moosavi-Dezfooli et al., 2015)
+- Virtual adversarial method (Miyato et al., 2015)
+- Fast gradient method (Goodfellow et al., 2014)
+- HopSkipJump attack (Chen et al., 2019)
+
+Poisoning Attacks:
+- Poisoning Attack on SVM (Biggio et al., 2013)
 
 Defences:
-•	Thermometer encoding (Buckman et al., 2018)
-•	Total variance minimization (Guo et al., 2018)
-•	PixelDefend (Song et al., 2017)
-•	Gaussian data augmentation (Zantedeschi et al., 2017)
-•	Feature squeezing (Xu et al., 2017)
-•	Spatial smoothing (Xu et al., 2017)
-•	JPEG compression (Dziugaite et al., 2016)
-•	Label smoothing (Warde-Farley and Goodfellow, 2016)
-•	Virtual adversarial training (Miyato et al., 2015)
-•	Adversarial training (Szegedy et al., 2013)
+- Thermometer encoding (Buckman et al., 2018)
+- Total variance minimization (Guo et al., 2018)
+- PixelDefend (Song et al., 2017)
+- Gaussian data augmentation (Zantedeschi et al., 2017)
+- Feature squeezing (Xu et al., 2017)
+- Spatial smoothing (Xu et al., 2017)
+- JPEG compression (Dziugaite et al., 2016)
+- Label smoothing (Warde-Farley and Goodfellow, 2016)
+- Virtual adversarial training (Miyato et al., 2015)
+- Adversarial training (Szegedy et al., 2013)
 
 Robustness metrics, certifications and verifications:
-•	Clique Method Robustness Verification (Hongge et al., 2019)
-•	Randomized Smoothing (Cohen et al., 2019)
-•	CLEVER (Weng et al., 2018)
-•	Loss sensitivity (Arpit et al., 2017)
-•	Empirical robustness (Moosavi-Dezfooli et al., 2015)
+- Clique Method Robustness Verification (Hongge et al., 2019)
+- Randomized Smoothing (Cohen et al., 2019)
+- CLEVER (Weng et al., 2018)
+- Loss sensitivity (Arpit et al., 2017)
+- Empirical robustness (Moosavi-Dezfooli et al., 2015)
 
 Detection of adversarial samples:
-•	Basic detector based on inputs
-•	Detector trained on the activations of a specific layer
-•	Detector based on Fast Generalized Subset Scan (Speakman et al., 2018)
+- Basic detector based on inputs
+- Detector trained on the activations of a specific layer
+- Detector based on Fast Generalized Subset Scan (Speakman et al., 2018)
 
 Detection of poisoning attacks:
-•	Detector based on activations analysis (Chen et al., 2018)
+- Detector based on activations analysis (Chen et al., 2018)
 
 
 More information about IBM ART library:
