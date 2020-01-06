@@ -5,16 +5,18 @@
 This library contains all the functions that is required for this framework. This includes a diverse set of adversarial attacks, defences, and metrics that we can use, much like a toolbox. More importantly, it is active and updated constantly by the IBM team and open community. Tools that ART provides currently:
 
 Supported Machine Learning Libraries and Applications:
-•	TensorFlow (v1 and v2) (www.tensorflow.org)
-•	Keras (www.keras.io)
-•	PyTorch (www.pytorch.org)
-•	MXNet (https://mxnet.apache.org)
-•	Scikit-learn (www.scikit-learn.org)
-•	XGBoost (www.xgboost.ai)
-•	LightGBM (https://lightgbm.readthedocs.io)
-•	CatBoost (www.catboost.ai)
-•	GPy (https://sheffieldml.github.io/GPy/)
-•	Tesseract (https://github.com/tesseract-ocr/tesseract)
+- TensorFlow (v1 and v2) (www.tensorflow.org)
+- Keras (www.keras.io)
+- PyTorch (www.pytorch.org)
+- MXNet (https://mxnet.apache.org)
+- Scikit-learn (www.scikit-learn.org)
+- XGBoost (www.xgboost.ai)
+- LightGBM (https://lightgbm.readthedocs.io)
+- CatBoost (www.catboost.ai)
+- GPy (https://sheffieldml.github.io/GPy/)
+- Tesseract (https://github.com/tesseract-ocr/tesseract)
+
+
 Implemented Attacks, Defences, Detections, Metrics, Certifications and Verifications:
 
 Evasion Attacks:
