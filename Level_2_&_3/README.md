@@ -7,7 +7,7 @@
      the model to be tested contains any defence system in place to start with.
   2. DeepFool --> more advanced adversarial attack method that is gradient based. Used to test for more advanced but basic 
      adversarial attacks.
-- Example includes DeepFool for whitebox and blackbox (using surrogate model) environment. also include FGSM for whitebox environment to compare accuracy to show that DeepFool is more advanced than FGSM as it DeepFool reduces model accuracy by a larger percentage (2.57%) compared to FGSM (
+- Example includes DeepFool for whitebox and blackbox (using surrogate model) environment. also include FGSM for whitebox environment to compare accuracy to show that DeepFool is more advanced than FGSM as it DeepFool reduces model accuracy by a larger percentage (dropped to 2.57%) compared to FGSM (dropped to 21.57%)
 
 
 ## Level 3: Test for resistance against sophisticated adversarial attacks
