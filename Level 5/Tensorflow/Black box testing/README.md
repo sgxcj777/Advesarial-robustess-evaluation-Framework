@@ -1,18 +1,10 @@
-# Evaluating a Tensorflow Model's robustness to adversarial attacks using CLEVER metrics
+# Evaluating CLEVER metric in Black box environment
 
-The files in this folder contains examples of how one will evaluate robustness of a Tensorflow model using CLEVER metrics.
-There are examples of evaluation under a white-box setting, as well as under black-box setting. 
-
-## Evaluation environments
-
-### White-box
-In a white-box setting, several parameters are required and need to be accessible from the model:
-- Activation functions and weights values: used to compute the gradients (via partial differentiation)
-- Any defence system in place in the model
-IBM ART library provides a convenient wrapper `KerasClassifier(model)` for keras/tensorflow framework that provides functions that provide the above mentioned parameters. (details in the examples).
-
-### Black-box
-
+## Surrogate model
+A surrogate model is required to obatin gradients from model that is evaluated in black box environment
+[Prior-based RBF](https://papers.nips.cc/paper/9275-improving-black-box-adversarial-attacks-with-a-transfer-based-prior.pdf) is used to create a surrogate model. The surrogate model is then used in a white box environment to compute CLEVER score.
+```ModelSurrogate.py``` is the code to create a baseline surrogate model
+```EstimateGradients.py``` is used to fine tune the surrogate model and return gradients used for CLEVER evaluation
 
 
 ## Required packages
