@@ -12,6 +12,7 @@ In a white-box setting, several parameters are required and need to be accessibl
 IBM ART library provides a convenient wrapper `KerasClassifier(model)` for keras/tensorflow framework that provides functions that provide the above mentioned parameters. (details in the examples).
 
 ### Black-box
+In a black box setting, there needs access to model's gradients. Thus the concept of using a surrogate model to obtain gradients is employed.
 
 
 
