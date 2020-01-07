@@ -3,8 +3,8 @@
 ## Surrogate model
 A surrogate model is required to obatin gradients from model that is evaluated in black box environment
 [Prior-based RBF](https://papers.nips.cc/paper/9275-improving-black-box-adversarial-attacks-with-a-transfer-based-prior.pdf) is used to create a surrogate model. The surrogate model is then used in a white box environment to compute CLEVER score.
-```SurrogateModel.py``` is the code to create a baseline surrogate model
-```CollectGradients.py``` is used to fine tune the surrogate model and return gradients used for CLEVER evaluation
+```ModelSurrogate.py``` is the code to create a baseline surrogate model
+```EstimateGradients.py``` is used to fine tune the surrogate model and return gradients used for CLEVER evaluation
 
 
 ## Required packages
